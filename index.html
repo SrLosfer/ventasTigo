@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tigo</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/TIGOL.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+          
+  <div class="snowfall-container">
+    <div class="snowflake" style="animation-delay: 2s;"></div>
+    <div class="snowflake" style="animation-delay: 3s;"></div>
+    <div class="snowflake" style="animation-delay: 1s;"></div>
+    <!-- Más copos de nieve -->
+  </div>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!"><img class="img-fluid" src="assets/TIGOL.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fullTigo">Full Tigo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#planesPos">Planes Pospago</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#planesHogar">Planes Hogar</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5" id="fullTigo">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/FulltigoRigo.jpg " alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light" >Pasate a full tigo</h1>
+                    <p>Pasate a full tigo con la mejor red del pais, se parte de la familia tigo en la cual tendras plan movil ilimitado mas 500 megas de internet para tu hogar mas television avansada todo esto por tan solo $129.900 y te regalamos Win y Max por un año totalmente gratis</p>
+                    <button type="button" class="btn btn-primary whatsappButton" data-paquete="Full Tigo">Contactar con un asesor</button>
+                </div>
+            </div>
+            <!-- Modal para ingresar el nombre -->
+<div id="nameModal" style="display: none;">
+    <div class="modal-backdrop" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1040;"></div>
+    <div class="modal-content" style="position: fixed; top: 50%; left: 50%; width: 50%; height: 45%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; z-index: 1050;">
+        <h3>Ingresa tus datos de contacto</h3>
+        <input type="text" id="clienteNombre" placeholder="Escribe tu nombre" class="form-control mb-3">
+	<input type="text" id="clienteTelefono" placeholder="Escribe Numero de telefono" class="form-control mb-3">
+	<input type="text" id="clienteTelefono" placeholder="Escribe tu correo electronico" class="form-control mb-3">
+        <button id="submitName" class="btn btn-primary">Enviar</button>
+        <button id="cancelName" class="btn btn-secondary">Cancelar</button>
+    </div>
+</div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><h2 class="text-white m-0" id="planesPos">¡Planes pospago unicos para ti!</h2></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>60GB</h1>
+                                    <h6>20GB para compartir</h6>
+                                    <h2>$42.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $42900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>80GB</h1>
+                                    <h6>25GB para compartir</h6>
+                                    <h2>$48.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $48900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>85GB</h1>
+                                    <h6>35GB para compartir</h6>
+                                    <h2>$52.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $52900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>110GB</h1>
+                                    <h6>50GB para compartir</h6>
+                                    <h2>$64.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $64900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>120GB</h1>
+                                    <h6>65GB para compartir</h6>
+                                    <h2>$69.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $69900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>130GB</h1>
+                                    <h6>70GB para compartir</h6>
+                                    <h2>$74.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $74900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>160GB</h1>
+                                    <h6>75GB para compartir</h6>
+                                    <h2>$84.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $84900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>¡ILIMITADO!</h1>
+                                    <h6>80GB para compartir</h6>
+                                    <h2>$97.900</h2>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $97900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text m-0"><img class="img-fluid" alt="">
+                                <div class="text-white font-weight-bold text-center bg-primary">¡Plan pospago!<br>
+                                    <h1>¡ILIMITADO!</h1>
+                                    <h6>80GB para compartir</h6>
+                                    <h2>$107.900</h2>
+                                    <h6>Con derecho a roming de datos de 25GB, 100 min, 100 sms</h6>
+                                    <h6>Cargo básico iva incluido</h6>
+                                    <br>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p><img src="assets/iconoF.png"> Disfruta de <a class="font-weight-bold">Facebook</a> sin limites</p>
+                                    <p><img src="assets/iconoW.png"> Disfruta de <a class="font-weight-bold">Whatsapp</a> sin limites</p>
+                                    <p><img src="assets/iconoIn.png"> Disfruta de <a class="font-weight-bold">Instagran</a> tambien sin limites</p>
+                                    <br>
+                                    <p class="text-center">Que esperas para disfrutar de la mejor red del pais</p>
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $107900">Contactame</button>
+                    </div>
+                </div>
+
+            </div>
+                        <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><h2 class="text-white m-0" id="planesHogar">¡Planes Hogar unicos para ti!</h2></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text"><img class="img-fluid" src="assets/42900.jpg" alt=""></p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $42900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4  mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title"><img class="" src="assets/52900.jpg"></h2>
+                            <p class="card-text"></p>
+                        </div>
+                        <button type="button" class="btn btn-primary whatsappButton" data-paquete="Paquete $52900">Contactame</button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Three</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+         
+        <script src="js/scripts.js"></script>
+        <script>
+            // Función para abrir el modal y pedir el nombre del cliente
+            function showModal(paquete) {
+                const modal = document.getElementById('nameModal');
+                const submitButton = document.getElementById('submitName');
+                const cancelButton = document.getElementById('cancelName');
+                const nombreInput = document.getElementById('clienteNombre');
+        
+                modal.style.display = 'block'; // Mostrar el modal
+        
+                submitButton.onclick = function() {
+                    const nombreCliente = nombreInput.value.trim();
+        
+                    if (!nombreCliente) {
+                        alert("Por favor ingresa tu nombre.");
+                        return;
+                    }
+        
+                    // Crear el mensaje para WhatsApp
+                    const mensaje = `Hola soy ${nombreCliente}, estoy interesado en el paquete "${paquete}". Quiero más información.`;
+        
+                    // Codificar el mensaje para usarlo en la URL
+                    const mensajeCodificado = encodeURIComponent(mensaje);
+        
+                    // El número de WhatsApp al que enviar el mensaje (reemplázalo con tu número de WhatsApp)
+                    const numeroWhatsApp = "+573028351507"; // Aquí pon tu número de WhatsApp (con el código de país)
+        
+                    // Redirigir a WhatsApp con el mensaje predefinido
+                    const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
+        
+                    // Abrir la URL en una nueva ventana
+                    window.open(urlWhatsApp, "_blank");
+        
+                    // Cerrar el modal
+                    modal.style.display = 'none';
+                };
+        
+                cancelButton.onclick = function() {
+                    // Cerrar el modal si el usuario cancela
+                    modal.style.display = 'none';
+                };
+            }
+        
+            // Añadir el evento a cada botón de WhatsApp
+            document.querySelectorAll('.whatsappButton').forEach(function(button) {
+                button.addEventListener('click', function() {
+                    // Obtener el paquete desde el atributo data-paquete
+                    const paquete = button.getAttribute('data-paquete');
+                    // Mostrar el modal para ingresar el nombre
+                    showModal(paquete);
+                });
+            });
+        </script>
+
+ 
+
+<style>
+    .twinkle {
+      font-size: 3rem;
+      animation: blink 1.5s infinite alternate;
+    }
+  
+    @keyframes blink {
+      0% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+  <i class="fas fa-star twinkle"></i>
+    </body>
+</html>
